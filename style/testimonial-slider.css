@@ -21,6 +21,12 @@
   line-height: 28px;
 }
 
+@media screen and (max-width: 479px) {
+  .testimonials-container .swiper-slide p {
+    padding: 30px 20px 20px;
+  }
+}
+
 .testimonials-container .swiper-slide h6 {
   color: #fff;
   text-align: center;
